@@ -1,0 +1,7 @@
+CREATE TRIGGER nombre_trigger
+ON nombre_tabla
+AFTER Insert,delete, update
+AS
+BEGIN
+  -----Codigo
+ENd
